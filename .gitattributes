@@ -1,3 +1,3 @@
-inst/extdata/omni_exome_annotation.rds filter=lfs diff=lfs merge=lfs -text
-inst/extdata/omni_express_annotation.rds filter=lfs diff=lfs merge=lfs -text
 *.rds filter=lfs diff=lfs merge=lfs -text
+inst/extdata/omni_express_annotation.rds filter=lfs diff=lfs merge=lfs -text
+inst/extdata/omni_25_annotation.rds filter=lfs diff=lfs merge=lfs -text
