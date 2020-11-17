@@ -1,10 +1,16 @@
 Package: methQTL.data
 Type: Package
-Title: The data package associated with the methQTL R-package
-Version: 0.1.0
-Author: Michael Scherer
+Title: The data package associated with the MAGAR R-package
+Version: 0.99.0
+Authors@R: c(
+	person("Scherer", "Michael", email="mscherer@mpi-inf.mpg.de", role=c("cre", "aut"), comment = c(ORCID = "0000-0001-7990-6179"))
+	)
 Maintainer: Michael Scherer <mscherer@mpi-inf.mpg.de>
-Description: This package provides additional data, and annotations that are required some some functions of the methQTL (https://github.com/MPIIComputationalEpigenetics/methQTL-package) R-package
+Description: This package provides additional data, and annotations that are required some some functions of the MAGAR (https://github.com/MPIIComputationalEpigenetics/MAGAR) R-package
+Depends: R (>= 3.5)
 License: GPL-3
 Encoding: UTF-8
 RoxygenNote: 7.1.0
+biocViews: Regression, Epigenetics, QuantitativeTraitLocus, DNA methylation, SNP
+BugReports: https://github.com/MPIIComputationalEpigenetics/methQTL.data/issues
+URL: https://github.com/MPIIComputationalEpigenetics/methQTL.data
